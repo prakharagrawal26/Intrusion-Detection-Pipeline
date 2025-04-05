@@ -44,7 +44,7 @@ This project uses the **Canadian Institute for Cybersecurity Intrusion Detection
 
 1.  **Clone the repository (Optional):**
     ```bash
-    git clone [link-to-your-repo]
+    git clone https://github.com/prakharagrawal26/Intrusion-Detection-Pipeline.git
     cd AnomalyDetection
     ```
 2.  **Create and activate a virtual environment (Recommended):**
