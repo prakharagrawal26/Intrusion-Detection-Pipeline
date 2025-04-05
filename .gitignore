@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments (Common names)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? # Vim swap files
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Specific Project Files / Directories to Ignore
+# ==========================================
+
+# Ignore all contents of the data directory (CSVs, Parquet)
+# Add !data/.gitkeep below if you want to keep the empty data folder structure
+data/*
+
+# Ignore all contents of the models directory (saved models, scalers, encoders, pca)
+# Add !models/.gitkeep below if you want to keep the empty models folder structure
+models/*
+
+# Ignore all contents of the results directory (plots, summary csv)
+# Add !results/.gitkeep below if you want to keep the empty results folder structure
+results/*
+
+# If you want Git to track the *empty* folders (data, models, results) so they
+# are created when someone clones the repo, create an empty file named `.gitkeep`
+# inside each of these folders and uncomment the lines below:
+# !data/.gitkeep
+# !models/.gitkeep
+# !results/.gitkeep
+
+# Ignore specific generated files if they might appear elsewhere (e.g., root)
+evaluation_summary.csv
+*.log
